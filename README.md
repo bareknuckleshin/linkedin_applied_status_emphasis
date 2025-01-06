@@ -1,6 +1,6 @@
 # Extension for browsers to highlight the status of 'Applied' in Linkedin website
 
-# Developing a Microsoft Edge Extension to Highlight the status of 'Applied' in Linkedin website
+## How to Develope a Microsoft Edge Extension to Highlight the status of 'Applied' in Linkedin website
 
 ## 1. Project Overview
 This guide explains how to develop an extension for Microsoft Edge to highlight specific HTML elements. The extension identifies elements with a certain class (`li.job-card-container__footer-item`) and changes the background color of the parent `<div>` to highlight it.
