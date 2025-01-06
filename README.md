@@ -23,12 +23,12 @@ linkedin_highlight/
   "manifest_version": 3,
   "name": "LinkedIn Job Card Highlighter",
   "version": "1.0",
-  "description": ""An extension to highlight specific job card",
+  "description": "An extension to highlight specific job card",
   "permissions": ["activeTab"],
   "host_permissions": ["https://www.linkedin.com/*"],
   "content_scripts": [
     {
-      "matches": ["https://www.linkedin.com/*"], // target website URL
+      "matches": ["https://www.linkedin.com/*"], //target website URL
       "js": ["content.js"]
     }
   ]
