@@ -71,7 +71,7 @@ observer.observe(document.body, { childList: true, subtree: true });
 ### 1. **Load the Extension**
 1. Open Microsoft Edge and navigate to `edge://extensions/`.
 2. Enable "Developer mode."
-3. Click "Load unpacked" and select the `linkedin_filter` folder.
+3. Click "Load unpacked" and select the `linkedin_highlight` folder.
 
 ### 2. **Activate the Extension**
 - Ensure the extension appears in the list and toggle it on to activate it.
