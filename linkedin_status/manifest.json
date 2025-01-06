@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Search Result Filter",
+  "version": "1.0",
+  "description": "특정 상태의 검색 결과를 제외합니다.",
+  "permissions": ["activeTab"],
+  "host_permissions": ["https://www.linkedin.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/*"],  // 대상 웹 포탈 URL
+      "js": ["content.js"]
+    }
+  ]
+}
